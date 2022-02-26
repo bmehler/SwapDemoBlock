@@ -1,0 +1,18 @@
+{
+  "name": "swag/plugin-skeleton",
+  "description": "Skeleton plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTextReversed\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTextReversed\\SwagTextReversed",
+    "label": {
+      "de-DE": "TextReversed plugin",
+      "en-GB": "TextReversed plugin"
+    }
+  }
+}
